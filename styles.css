@@ -1,0 +1,344 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;900&display=swap");
+
+/* universal reset */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+}
+
+/* TEXT TYPOGRAPHY */
+/* MAIN HEADER */
+h1 {
+  font-size: 2.2rem;
+  font-weight: 900;
+  color: #3c3a47;
+  padding-bottom: 1rem;
+}
+
+header.main-header p {
+  font-weight: 100;
+  padding-bottom: 3rem;
+}
+
+header.main-header a {
+  text-decoration: none;
+  color: #705139;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.btn {
+  background: transparent;
+  border: 1px solid #9f7657;
+  padding: 1rem 3rem;
+}
+
+.btn:hover {
+  background: black;
+  color: white;
+}
+
+/* PET GALLERY TEXT TYPOGRAPHY */
+header.pet p {
+  font-size: 0.9rem;
+  font-weight: 200;
+  color: #3c3a47;
+}
+.sections {
+  text-transform: uppercase;
+  font-weight: 300;
+  font-size: 1rem;
+  color: #cbccca;
+  padding-bottom: 1rem;
+  letter-spacing: 2px;
+}
+header.pet h2 {
+  font-size: 2.5rem;
+  color: #3c3a47;
+  padding-bottom: 1.5rem;
+}
+
+div.pets h3 {
+  font-weight: 100;
+  font-size: 1.3rem;
+  color: #959598;
+}
+
+div.pets h4 {
+  color: #3c3a47;
+  font-weight: 700;
+  font-size: 1rem;
+}
+
+#pets-intro {
+  font-size: 1.1rem;
+  line-height: 2;
+  letter-spacing: 0.3px;
+}
+.pets p {
+  color: #3c3a47;
+  font-size: 1rem;
+}
+
+#price,
+#price2,
+#price3,
+#price4 {
+  /* font-weight: 700; */
+  color: #9f7657;
+  font-size: 0.9rem;
+}
+
+#interest-link {
+  font-size: 1rem;
+  text-align: center;
+  padding-top: 3rem;
+  padding-bottom: 14rem;
+}
+#interest-link a {
+  text-decoration: none;
+  color: #9f7657;
+  font-weight: 700;
+}
+
+#interest-link a:hover {
+  color: #767385;
+  text-decoration: underline;
+}
+
+/* CONTACT US TEXT TYPOGRAPHY */
+
+.contact-header p {
+  font-weight: 200;
+  color: rgba(255, 255, 255, 0.453);
+  font-size: 1.1rem;
+  text-transform: uppercase;
+  padding-bottom: 1rem;
+}
+
+.contact-header h4 {
+  font-weight: 700;
+  font-size: 2.1rem;
+  color: white;
+  padding-bottom: 2rem;
+}
+
+/* form TEXT TYPOGRAPHY */
+
+form label {
+  font-size: 0.8rem;
+  color: #94939a;
+  text-transform: uppercase;
+  text-align: center;
+  display: block;
+}
+
+form input[type="submit"] {
+  font-size: 1rem;
+  font-weight: 500;
+  color: white;
+}
+
+form input[type="submit"]:hover {
+  color: #3c3a47;
+}
+
+.form-container p {
+  font-weight: 300;
+  font-size: 0.9rem;
+  color: rgb(148, 147, 154);
+}
+
+/* STORE TEXT TYPOGRAPHY */
+
+section.store-section h3 {
+  font-size: 2.3rem;
+  color: #3c3a47;
+  font-size: 700;
+}
+
+section.store-section p {
+  font-size: 0.8rem;
+  font-weight: 100;
+  text-transform: uppercase;
+}
+
+#location {
+  font-weight: 300;
+  text-transform: none;
+  font-size: 1.3rem;
+}
+
+.social-connect img {
+  width: 1.4%;
+  list-style: none;
+}
+
+/* FOOTER */
+
+footer em,
+strong {
+  color: #a67452;
+  text-transform: uppercase;
+}
+.type {
+  font-size: 0.8rem;
+  color: black;
+  text-transform: none;
+}
+
+/* STYLING DIV CONTAINER  CONTENT*/
+
+/* MAIN HEADER */
+.container {
+  background: #ffffff;
+  padding: 10rem 0;
+  text-align: center;
+  /* width: 85%; */
+}
+.logo {
+  width: 5%;
+  text-align: center;
+  padding-bottom: 6rem;
+}
+
+/* GALLERY SECTION */
+.pet {
+  text-align: center;
+}
+
+.gallery {
+  margin-top: 3rem;
+  padding: 0 2rem;
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: repeat(4, 1fr);
+  background-color: transparent;
+  justify-content: center;
+  align-items: center;
+  text-align: start;
+}
+
+.pet-section {
+  padding-top: 13rem;
+  background: #eff0ea;
+}
+
+.pets-title p {
+  margin: 1rem 0;
+}
+.pets img {
+  width: 100%;
+}
+
+/* CONTACT INFO SECTION */
+
+section.contact-section {
+  background: #3c3a47;
+  padding: 8rem 0;
+  text-align: center;
+  display: block;
+}
+
+.form-container {
+  background: transparent;
+}
+
+form input,
+form textarea {
+  background: #4f4d59;
+  border: none;
+  width: 50%;
+  padding: 1rem;
+  margin: 0.7rem;
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+
+form textarea {
+  resize: none;
+}
+
+form input,
+form textarea:focus {
+  outline: none;
+}
+
+.btn-submit {
+  background: transparent;
+  border: 1px solid white;
+  padding: 1rem 3rem;
+}
+
+.btn-submit:hover {
+  background: rgb(255, 255, 255);
+  color: black;
+}
+#important-text {
+  padding-top: 1.5rem;
+  padding-bottom: 3rem;
+  color: rgba(255, 255, 255, 0.474);
+  font-size: 1rem;
+}
+
+.store-contact {
+  background: #ffffff;
+}
+
+/* STORE LOCATION */
+
+#footer {
+  text-align: center;
+  padding-bottom: 5rem;
+  font-size: 0.8;
+}
+div.store.container {
+  padding: 7rem 0;
+}
+
+#social-connect {
+  padding-top: 4rem;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+ul li {
+  list-style: none;
+}
+
+#visit {
+  font-size: 1rem;
+  padding-bottom: 2.5rem;
+  letter-spacing: 0.2rem;
+}
+
+/* MEDIA QUERIES MOBILEN SIZES */
+
+@media screen and (max-width: 900px) {
+  .logo {
+    width: 10%;
+  }
+
+  /* GALLERY */
+  .gallery {
+    /* margin-top: 3rem;
+  padding: 0 2rem;
+  display: grid;
+  gap: 2rem; */
+    grid-template-columns: 1fr;
+  }
+
+  #location {
+    padding-bottom: 2rem;
+  }
+}

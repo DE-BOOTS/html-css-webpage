@@ -1,0 +1,177 @@
+<!-- Fiction Pet Stor Landing Page. used simple HTML and CSS Done By BootsCoDev -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pet Store Website</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- main heading -->
+    <header class="main-header">
+      <div class="container" id="main">
+        <img class="logo" src="Images/pet-logo.svg" alt="pet-store-logo" />
+        <h1>Cute Little Pets Waiting to be loved By You</h1>
+        <p>We have healthy,clean cute pets waiting to find a home</p>
+        <a class="btn" href="#pets-gallery">Discover our Cute Pets Selection</a>
+      </div>
+    </header>
+    <!-- pet selection section -->
+    <section class="pet-section" id="pets-gallery">
+      <!-- pet gallery header -->
+      <header class="pet">
+        <p class="sections">The selection</p>
+        <h2>Our Pets</h2>
+        <p id="pets-intro">
+          We mostly sell three - five months old pets. That means that we take
+          our<br />
+          time to care for the new born and give it the necessary nutrients they
+          need to grow health
+        </p>
+      </header>
+      <div class="gallery container">
+        <!-- image one -->
+        <div class="pets">
+          <img src="Images/kitty.jpg" alt="little-cate-image" />
+          <h3>O1</h3>
+          <h4>Black, grey and white color kitty with yellowish green eyes</h4>
+          <p>
+            This little kitty is perfect for a newly family with kids. The kitty
+            is little bit shy , friendly and likes to be pat a lot
+          </p>
+          <p id="price">R1000</p>
+        </div>
+        <!-- second image -->
+        <!-- <div class="pets">
+          <img src="Images/chicks.jpg" alt="little-duck-chicks-images" />
+          <h3>02</h3>
+          <h4>Little golden ducks with black stripes</h4>
+          <p>
+            You love ducks! This little groups of golden ducks is just for you.
+            Well raised and feed and ready to be at your home
+          </p>
+          <p>R1300</p>
+        </div> -->
+        <!-- third image -->
+        <div class="pets">
+          <img src="Images/parrot.jpg" alt="green-parrot-image" />
+          <h3>03</h3>
+          <h4>Yellow Green Parrot</h4>
+          <p>
+            This little fellow is a young female parrot that likes to keep
+            people in company by sharing mini-funny jokes. It has been trained
+            well to respect its owners and speak using kind words only.
+          </p>
+          <p id="price2">R1500</p>
+        </div>
+        <!-- fourth image -->
+        <div class="pets">
+          <img src="Images/rabbit.jpg" alt="bunny-image" />
+          <h3>04</h3>
+          <h4>Stylish White Rabbit</h4>
+          <p>
+            You want to have a stylish pet at your home, then this cute rabbit
+            is just for you
+          </p>
+          <p id="price3">R1300</p>
+        </div>
+        <!-- firth image -->
+        <div class="pets">
+          <img src="Images/puppy.jpg" alt="puppy-image" />
+          <h3>05</h3>
+          <h4>Black and White Poodles Puppy</h4>
+          <p>Cute little Poodles ready to melt your hearts with its cuteness</p>
+          <p id="price4">R2000</p>
+        </div>
+      </div>
+      <p id="interest-link">
+        Interested in our pets?
+        <a href="#contact-page">Send us a message</a> or
+        <a href="#store-page">Visit our store.</a>
+      </p>
+    </section>
+
+    <!-- contact info section -->
+    <section class="contact-section" id="contact-page">
+      <header class="contact-header">
+        <p>Contact us</p>
+        <h4>Let's get in touch</h4>
+      </header>
+      <div class="form-container">
+        <!-- contact form -->
+        <form action="" get="post">
+          <!-- name field -->
+          <div>
+            <label for="contact-name">Name</label>
+            <input
+              type="text"
+              name="user-name"
+              id="contact-name"
+              placeholder="Enter full-names"
+            />
+          </div>
+          <!-- email field -->
+          <div>
+            <label for="contact-email">Email Address</label>
+            <input type="email" name="contact-email" id="contact-email" />
+          </div>
+          <div>
+            <label for="contact-message">Message</label>
+            <!-- textarea field -->
+            <textarea
+              name="contact-message"
+              id="contact-message"
+              cols="30"
+              rows="12"
+              placeholder="your message."
+            ></textarea>
+          </div>
+          <!-- button field -->
+          <input type="submit" value="Send Message" class="btn-submit" />
+        </form>
+      </div>
+      <p id="important-text">
+        <em
+          >All fields are required. We'll get back to you as soon as
+          possible.</em
+        >
+      </p>
+    </section>
+
+    <!-- store location section -->
+    <section class="store-section" id="store-page">
+      <div class="store container">
+        <p id="visit">Visit our Store</p>
+        <h3 id="number">(012) 555-0133</h3>
+        <p id="location">2972 Western Cape Rd Santa Ana,MarkVille 85486</p>
+        <!-- social media icon list -->
+        <ul id="social-connect">
+          <li>
+            <a href="#"
+              ><img src="Images/icon-facebook.svg" alt="facbook-icon"
+            /></a>
+          </li>
+          <li>
+            <a href="#"
+              ><img src="Images/icon-twitter.svg" alt="twitter-icon"
+            /></a>
+          </li>
+          <li>
+            <a href="#"
+              ><img src="Images/icon-instagram.svg" alt="instagram-icon"
+            /></a>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <!-- PAGE FOOTER -->
+    <footer>
+      <p id="footer">
+        &copy; Copyright 2023 <strong>BootsCoDev</strong> .
+        <em class="type">Fiction </em> Pet Store Company.<br />
+        All rights reserved. Built with <em>html & css</em>
+      </p>
+    </footer>
+  </body>
+</html>
