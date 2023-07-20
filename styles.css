@@ -79,8 +79,8 @@ div.pets h4 {
 
 #pets-intro {
   font-size: 1.1rem;
-  line-height: 2;
-  letter-spacing: 0.3px;
+  line-height: 1.5;
+  letter-spacing: 0.1px;
 }
 .pets p {
   color: #3c3a47;
@@ -100,7 +100,7 @@ div.pets h4 {
   font-size: 1rem;
   text-align: center;
   padding-top: 3rem;
-  padding-bottom: 14rem;
+  padding-bottom: 12rem;
 }
 #interest-link a {
   text-decoration: none;
@@ -204,7 +204,7 @@ strong {
   /* width: 85%; */
 }
 .logo {
-  width: 5%;
+  width: 6%;
   text-align: center;
   padding-bottom: 6rem;
 }
@@ -312,6 +312,10 @@ div.store.container {
   gap: 2rem;
 }
 
+#social-connect a img:hover {
+  cursor: pointer;
+}
+
 ul li {
   list-style: none;
 }
@@ -322,23 +326,59 @@ ul li {
   letter-spacing: 0.2rem;
 }
 
-/* MEDIA QUERIES MOBILEN SIZES */
+/* MEDIA QUERIES MOBILE SIZES */
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1045px) {
   .logo {
-    width: 10%;
+    width: 5%;
   }
 
   /* GALLERY */
   .gallery {
-    /* margin-top: 3rem;
-  padding: 0 2rem;
-  display: grid;
-  gap: 2rem; */
     grid-template-columns: 1fr;
   }
 
   #location {
     padding-bottom: 2rem;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+  }
+
+  header.pet h2 {
+    font-size: 2.1rem;
+  }
+  .pet-section {
+    padding: 3rem 2rem;
+  }
+  .pets h3 {
+    padding-bottom: 0.7rem;
+  }
+  .pets h4 {
+    padding-bottom: 0.8rem;
+  }
+  #interest-link {
+    padding: 5rem 0;
+  }
+  #important-text {
+    padding-top: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  div.store.container {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+  #footer {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+
+  #contact-page {
+    padding-bottom: 4rem;
   }
 }
